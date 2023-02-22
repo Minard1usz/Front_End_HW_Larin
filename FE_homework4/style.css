@@ -1,0 +1,60 @@
+h1 {
+  color: black;
+  text-align: center;
+}
+
+h2 {
+  color: red;
+}
+
+h3 {
+  color: rgb(3, 184, 18);
+}
+
+h3.CSS_Selectors_table {
+  color: brown;
+}
+
+.code_description {
+  color: blue;
+}
+
+#ident_example {
+  color: purple;
+}
+
+.note {
+  color: orange;
+}
+
+.table_list {
+  color: rgb(199, 3, 134);
+}
+
+h2,
+h3 {
+  text-align: left;
+}
+
+section > p {
+  color: rgb(3, 8, 78);
+}
+
+.CSS_Selectors_table,
+.table_headline {
+  text-decoration: underline;
+}
+
+td i {
+  text-decoration: underline;
+}
+
+.note_mark {
+  color: red;
+  font-weight: bold;
+}
+
+span {
+  font-weight: bold;
+  text-decoration: underline;
+}
