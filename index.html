@@ -5,13 +5,65 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Car shop</title>
+    <title>Registration page</title>
     <link rel="stylesheet" href="./styles/style.css">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="./styles/fonts.css">
 </head>
 
 <body>
-
+    <main>
+        <section>
+            <div class="container">
+                <h1>Registration page</h1>
+                <form action="https://fom.in.ua/echo" method="post">
+                    <p>
+                        <label for="firstName">First name</label>
+                        <input id="firstName" type="text" name="firstName" placeholder="Enter your name" required>
+                    </p>
+                    <p>
+                        <label>
+                            <span>Last name</span>
+                            <input type="text" placeholder="Enter your last name" required>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span>Gender</span>
+                            <input type="radio" name="Gender" value="male" required> male
+                        </label>
+                        <label>
+                            <input type="radio" name="Gender" value="female" required> female
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span>E-mail</span>
+                            <input name="email" type="email" placeholder="Enter your email" required>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span>Phone number</span>
+                            <input name="phone" type="tel" placeholder="Enter your phone number">
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span>Password</span>
+                            <input name="password" type="password" placeholder="Enter your password" required>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span>Confirm your password</span>
+                            <input name="password" type="password" placeholder="Confirm your password" required>
+                        </label>
+                    </p>
+                    <p><button>Send</button></p>
+                </form>
+            </div>
+        </section>
+    </main>
 </body>
 
 </html>
