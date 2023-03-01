@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seach page</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+
+<body>
+    <main>
+        <section>
+            <div class="container">
+                <form action="https://fom.in.ua/echo" method="post" class="search_form">
+                    <h1>Search</h1>
+                    <p>
+                        <label class="searchlabel">
+                            <input type="search" name="search" class="search_field">
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span class="optionsName">Body</span>
+                            <select name="Body" id="Body">
+                                <option value="0" disabled selected>Choose body</option>
+                                <option value="Cabriolet">Cabriolet</option>
+                                <option value="Compact">Compact</option>
+                                <option value="Coupe">Coupe</option>
+                                <option value="Station wagon">Station wagon</option>
+                                <option value="Pick-up">Pick-up</option>
+                                <option value="Sedans / saloons">Sedans / saloons</option>
+                                <option value="SUV / offroad">SUV / offroad</option>
+                                <option value="MPV / VAN">MPV / VAN</option>
+                                <option value="Cargo VAN">Cargo VAN</option>
+                                <option value="Other car styles">Other car styles</option>
+                            </select>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span class="optionsName">Make</span>
+                            <select name="Make" id="Make">
+                                <option value="0" disabled selected>Choose make</option>
+                                <option value="Acura">Acura</option>
+                                <option value="Alpha Romeo">Alpha Romeo</option>
+                                <option value="Alpine">Alpine</option>
+                                <option value="Aston Martin">Aston Martin</option>
+                                <option value="Audi">Audi</option>
+                                <option value="Bentley">Bentley</option>
+                                <option value="BMW">BMW</option>
+                                <option value="Bugatti">Bugatti</option>
+                                <option value="Cadillac">Cadillac</option>
+                                <option value="Chevrolet">Chevrolet</option>
+                                <option value="Citroen">Citroen</option>
+                                <option value="Dacia">Dacia</option>
+                                <option value="Daewoo">Daewoo</option>
+                                <option value="Dodge">Dodge</option>
+                                <option value="Fiat">Fiat</option>
+                                <option value="Ford">Ford</option>
+                                <option value="Honda">Honda</option>
+                                <option value="Hyundai">Hyundai</option>
+                                <option value="Infiniti">Infiniti</option>
+                                <option value="Jaguar">Jaguar</option>
+                                <option value="Jeep">Jeep</option>
+                                <option value="Kia">Kia</option>
+                                <option value="Lando Rover">Lando Rover</option>
+                                <option value="Lexus">Lexus</option>
+                                <option value="Mazda">Mazda</option>
+                                <option value="Mini">Mini</option>
+                                <option value="Mitsubishi">Mitsubishi</option>
+                                <option value="Nissan">Nissan</option>
+                                <option value="Opel">Opel</option>
+                                <option value="Peugeot">Peugeot</option>
+                                <option value="Porsche">Porsche</option>
+                                <option value="Renault">Renault</option>
+                                <option value="Skoda">Skoda</option>
+                                <option value="Smart">Smart</option>
+                                <option value="Subaru">Subaru</option>
+                                <option value="Suzuki">Suzuki</option>
+                                <option value="Tesla">Tesla</option>
+                                <option value="Toyota">Toyota</option>
+                                <option value="Volkswagen">Volkswagen</option>
+                                <option value="Volvo">Volvo</option>
+                            </select>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span class="optionsName">Country</span>
+                            <select name="Country" id="Country">
+                                <option value="0" disabled selected>Choose country</option>
+                                <option value="Albania">Albania</option>
+                                <option value="Andorra">Andorra</option>
+                                <option value="Armenia">Armenia</option>
+                                <option value="Austria">Austria</option>
+                                <option value="Azerbaijan">Azerbaijan</option>
+                                <option value="Belgium">Belgium</option>
+                                <option value="Croatia">Croatia</option>
+                                <option value="Cyprus">Cyprus</option>
+                                <option value="Czech Republic">Czech Republic</option>
+                                <option value="Denmark">Denmark</option>
+                                <option value="Estonia">Estonia</option>
+                                <option value="Finland">Finland</option>
+                                <option value="France">France</option>
+                                <option value="Georgia">Georgia</option>
+                                <option value="Germany">Germany</option>
+                                <option value="Greece">Greece</option>
+                                <option value="Hungary">Hungary</option>
+                                <option value="Iceland">Iceland</option>
+                                <option value="Ireland">Ireland</option>
+                                <option value="Italy">Italy</option>
+                                <option value="Kosovo">Kosovo</option>
+                                <option value="Latvia">Latvia</option>
+                                <option value="Lithuania">Lithuania</option>
+                                <option value="Moldova">Moldova</option>
+                                <option value="Netherlands">Netherlands</option>
+                                <option value="Norway">Norway</option>
+                                <option value="Poland">Poland</option>
+                                <option value="Portugal">Portugal</option>
+                                <option value="Romania">Romania</option>
+                                <option value="Spain">Spain</option>
+                                <option value="Sweden">Sweden</option>
+                                <option value="Turkey">Turkey</option>
+                                <option value="Ukraine">Ukraine</option>
+                                <option value="USA">USA</option>
+                            </select>
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span class="optionsName">Price from</span>
+                            <input type="number" name="price" min="1000" max="100000" step="500">
+                        </label>
+                        <label>
+                            <span class="optionsName">to</span>
+                            <input type="number" name="price" min="1000" max="500000" step="500">
+                        </label>
+                    </p>
+                    <p>
+                        <label>
+                            <span class="optionsName">A year of issue from</span>
+                            <input type="number" name="year" min="1980" max="2023" step="1">
+                        </label>
+                        <label>
+                            <span class="optionsName">to</span>
+                            <input type="number" name="year" min="1980" max="2023" step="1">
+                        </label>
+                    </p>
+                    <fieldset>
+                        <legend class="state_legend">State</legend>
+                        <label>
+                            <span>new</span>
+                            <input type="checkbox" name="state" value="new">
+                        </label>
+                        <label>
+                            <span>damaged</span>
+                            <input type="checkbox" name="state" value="damaged">
+                        </label>
+                        <label>
+                            <span>partly damaged</span>
+                            <input type="checkbox" name="state" value="partlyDamaged">
+                        </label>
+                        <label>
+                            <span>credit</span>
+                            <input type="checkbox" name="state" value="credit">
+                        </label> <br>
+                        <label>
+                            <span>customs uncleared</span>
+                            <input type="checkbox" name="state" value="uncleared">
+                        </label>
+                        <label>
+                            <span>refurbished</span>
+                            <input type="checkbox" name="state" value="refurbished">
+                        </label>
+                        <label>
+                            <span>for spare parts</span>
+                            <input type="checkbox" name="state" value="spareParts">
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend class="fuel_legend">Fuel</legend>
+                        <label>
+                            <span>petrol</span>
+                            <input type="radio" name="fuel" value="petrol">
+                        </label>
+                        <label>
+                            <span>diesel</span>
+                            <input type="radio" name="fuel" value="diesel">
+                        </label>
+                        <label>
+                            <span>gas</span>
+                            <input type="radio" name="fuel" value="gas">
+                        </label>
+                        <label>
+                            <span>petrol / gas</span>
+                            <input type="radio" name="fuel" value="petrolGas">
+                        </label>
+                        <label>
+                            <span>hybrid</span>
+                            <input type="radio" name="fuel" value="hybrid">
+                        </label>
+                        <label>
+                            <span>electro</span>
+                            <input type="radio" name="fuel" value="electro">
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend class="transmission_legend">Transmission</legend>
+                        <label>
+                            <span>manual</span>
+                            <input type="checkbox" name="transmission" value="manual">
+                        </label>
+                        <label>
+                            <span>automatic</span>
+                            <input type="checkbox" name="transmission" value="automatic">
+                        </label>
+                        <label>
+                            <span>robot</span>
+                            <input type="checkbox" name="transmission" value="robot">
+                        </label>
+                        <label>
+                            <span>tiptronic</span>
+                            <input type="checkbox" name="transmission" value="tiptronic">
+                        </label>
+                        <label>
+                            <span>variable speed drive</span>
+                            <input type="checkbox" name="transmission" value="variator">
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend class="color_legend">Color</legend>
+                        <label>
+                            <span>black</span>
+                            <input type="radio" name="color" value="black">
+                        </label>
+                        <label>
+                            <span>silver</span>
+                            <input type="radio" name="color" value="silver">
+                        </label>
+                        <label>
+                            <span>gold</span>
+                            <input type="radio" name="color" value="gold">
+                        </label>
+                        <label>
+                            <span>red</span>
+                            <input type="radio" name="color" value="red">
+                        </label>
+                        <label>
+                            <span>dark blue</span>
+                            <input type="radio" name="color" value="darkBlue">
+                        </label> <br>
+                        <label>
+                            <span>custom</span>
+                            <input type="color" name="customColor" value="custom">
+                        </label>
+                    </fieldset>
+                    <fieldset>
+                        <legend class="additional_options">Additional options</legend>
+                        <label>
+                            <span>headlight</span>
+                            <select name="headlight" id="headlight">
+                                <option value="0" disabled selected>Choose an option</option>
+                                <option value="xenonBixinon">xenon / bixinon</option>
+                                <option value="matrix">matrix</option>
+                                <option value="halogen">halogen</option>
+                                <option value="LED">LED</option>
+                            </select>
+                        </label> <br>
+                        <label>
+                            <span>interior material</span>
+                            <select name="inetriorMaterial" id="inetriorMaterial">
+                                <option value="0" disabled selected>Choose interior material</option>
+                                <option value="fabric">fabric</option>
+                                <option value="leather">leather</option>
+                                <option value="velours">velours</option>
+                                <option value="combined">combined</option>
+                                <option value="artificialLeather">artificial leather</option>
+                            </select>
+                        </label> <br>
+                        <label>
+                            <span>interior color</span>
+                            <select name="inetriorColor" id="inetriorColor">
+                                <option value="0" disabled selected>Choose interior color</option>
+                                <option value="dark">dark</option>
+                                <option value="light">light</option>
+                                <option value="brown">brown</option>
+                            </select>
+                        </label> <br>
+                        <label>
+                            <span>air conditioner</span>
+                            <select name="airConditioner" id="airConditioner">
+                                <option value="0" disabled selected>Choose an option</option>
+                                <option value="ac">AC</option>
+                                <option value="1ZoneClimateControl">1-zone climate control</option>
+                                <option value="2ZoneClimateControl">2-zones climate control</option>
+                                <option value="multizoneClimateControl">multi-zone climate control</option>
+                            </select>
+                        </label> <br>
+                        <label>
+                            <span>power steering</span>
+                            <select name="powerSteering" id="powerSteering">
+                                <option value="0" disabled selected>Choose an option</option>
+                                <option value="Hydrailic">Hydraulic system</option>
+                                <option value="Electric">Electric system</option>
+                                <option value="ElectroHydrailic">Electro-hydraulic system</option>
+                            </select>
+                        </label> <br>
+                        <label>
+                            <span>steering wheel adjustment</span>
+                            <select name="steeringWheelAdj" id="steeringWheelAdj">
+                                <option value="0" disabled selected>Choose an option</option>
+                                <option value="height">height</option>
+                                <option value="heightAndReach">height and reach</option>
+                            </select>
+                        </label> <br>
+                        <label>
+                            <span>seat heading</span>
+                            <select name="seatHeating" id="seatHeating">
+                                <option value="0" disabled selected>Choose an option</option>
+                                <option value="frontSeats">front seats</option>
+                                <option value="frontAndRearSeats">front and rear seats</option>
+                            </select>
+                        </label> <br>
+                        <label>
+                            <span>seat ventilation</span>
+                            <select name="seatVentilation" id="seatVentilation">
+                                <option value="0" disabled selected>Choose an option</option>
+                                <option value="frontSeats">front seats</option>
+                                <option value="frontAndRearSeats">front and rear seats</option>
+                            </select>
+                        </label> <br>
+                        <label>
+                            <span>seat position memory</span>
+                            <select name="seatPosMemory" id="seatPosMemory">
+                                <option value="0" disabled selected>Choose an option</option>
+                                <option value="drivingSeat">driving seat</option>
+                                <option value="frontSeats">front seats</option>
+                                <option value="frontAndRearSeats">front and rear seats</option>
+                            </select>
+                        </label> <br>
+                        <label>
+                            <span>spare wheel</span>
+                            <select name="spareWheel" id="spareWheel">
+                                <option value="0" disabled selected>Choose an option</option>
+                                <option value="fullSizeWheel">full size wheel</option>
+                                <option value="donutTire">donut tire</option>
+                            </select>
+                        </label>
+                    </fieldset>
+                    <button class="select_button">Select</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
