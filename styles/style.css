@@ -28,7 +28,6 @@ html {
   font-size: 16px;
   font-weight: 400;
   color: #252525;
-  /* overflow-x: hidden; */
 }
 
 .container {
@@ -93,31 +92,26 @@ html {
 }
 
 .design_button {
-  background-color: #34547a;
-  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-  color: white;
+  width: 225px;
+  height: 65px;
+  left: 399px;
+  top: 494px;
   border: none;
-  font-family: "Roboto", sans-serif;
-  margin-top: 65px;
-  margin-bottom: 141px;
-}
-
-.descr_button {
-  font-family: "Roboto", sans-serif;
+  background: #34547a;
+  font-family: "Roboto";
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
-  display: inline-block;
-  width: 225px;
-  height: 65px;
-  color: #ffffff;
-  padding: 19px 41px 20px 41px;
+  text-align: center;
   letter-spacing: 0.1em;
+  color: #ffffff;
+  margin-top: 65px;
+  margin-bottom: 141px;
+  cursor: pointer;
 }
 
 .about_me_title {
-  padding-top: 112px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   margin-left: auto;
   margin-right: auto;
   font-family: "Roboto", sans-serif;
@@ -126,6 +120,11 @@ html {
   line-height: 38px;
   text-align: center;
   color: #000000;
+}
+
+.about_me_section {
+  margin-top: 112px;
+  margin-bottom: 100px;
 }
 
 .about_me_description {
@@ -138,7 +137,6 @@ html {
   color: #727272;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 100px;
 }
 
 .numbers_section {
@@ -188,14 +186,14 @@ html {
 
 .video_section {
   background: #eeeff1;
+  padding-top: 100px;
   padding-bottom: 100px;
 }
 
 .work_title {
   margin-left: auto;
   margin-right: auto;
-  padding-top: 100px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
   width: 403px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
@@ -218,9 +216,7 @@ html {
 }
 
 .video_wrapper {
-  display: flex;
-  justify-content: center;
-  padding-top: 60px;
+  margin-top: 60px;
   margin-left: auto;
   margin-right: auto;
   aspect-ratio: 16/9;
@@ -232,8 +228,7 @@ html {
 
 .name_footer {
   width: 130px;
-  padding-top: 50px;
-  padding-bottom: 20px;
+  margin-top: 50px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 21px;
@@ -243,13 +238,10 @@ html {
 }
 
 .rights_sign {
-  width: 193px;
   font-family: "Roboto", sans-serif;
-  font-weight: 400;
   font-size: 13px;
   line-height: 21px;
   color: #ffffff;
-  padding-top: 20px;
-  padding-bottom: 50px;
-  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
