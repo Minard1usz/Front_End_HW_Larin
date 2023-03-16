@@ -65,7 +65,7 @@ img {
   color: yellow;
 }
 
-.top_menu li:hover .sub_menu {
+.top_menu li:hover > .sub_menu {
   display: block;
 }
 
@@ -73,15 +73,8 @@ img {
   background: red;
 }
 
-.top_menu li ul li ul {
+.top_menu,
+.sub_menu ul {
   left: 150px;
   top: 0;
-}
-
-.top_menu ul li ul li {
-  display: none;
-}
-
-.top_menu li ul li:hover ul li {
-  display: block;
 }
