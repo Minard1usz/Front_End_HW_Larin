@@ -378,6 +378,7 @@
 
 .affiliate_footer {
   margin-top: 100px;
+  background: var(--bg-dark-grey);
 }
 
 .footer_left_icons {
