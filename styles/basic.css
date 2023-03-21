@@ -1,0 +1,55 @@
+:root {
+  --container-width: 1150px;
+  --basic-space: 1rem;
+  --bg-grey: #e3ebf1;
+  --color-white: #ffffff;
+  --color-dark: #1d2f38;
+  --color-black: #333333;
+  --color-yellow: #ffc728;
+  --bg-green: #17a550;
+  --bg-dark-grey: #f7f9fa;
+  --color-green: #10843f;
+  --color-orange: #fead1c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+a:hover {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+html {
+  font-family: "Raleway", sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--text-color);
+}
+
+body {
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  background-color: var(--bg-white);
+}
+
+.container {
+  max-width: calc(var(--container-width) + var(--basic-space) * 2);
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: var(--basic-space);
+  padding-right: var(--basic-space);
+}
+
+.hidden {
+  display: none !important;
+}
