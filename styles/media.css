@@ -1,11 +1,36 @@
+@media screen and (max-width: 1980px) {
+  .header_section,
+  .main_section,
+  .footer_section {
+    padding: 0 60px;
+  }
+
+  .header_section {
+    padding-top: 50px;
+    padding-bottom: 6px;
+  }
+}
+
 @media screen and (max-width: 1440px) {
   .main_headline {
     max-width: 1080px;
     height: 100%;
+    text-align: left;
   }
 
   .container {
     max-width: 1320px;
+  }
+
+  .header_section,
+  .main_section,
+  .footer_section {
+    padding: 0 60px;
+  }
+
+  .header_section {
+    padding-top: 50px;
+    padding-bottom: 6px;
   }
 }
 
@@ -21,9 +46,9 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 985px) {
   .main_headline {
-    max-width: 664px;
+    max-width: 657px;
     height: 100%;
     text-align: left;
   }
@@ -33,12 +58,13 @@
       "B B B"
       "A A A"
       "C C C";
-    gap: 60px;
+    gap: 30px;
   }
 
   .container,
   .gradient_container {
     max-width: 648px;
+    padding: 0;
   }
 
   .header_wrap_left,
@@ -71,10 +97,28 @@
   }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 623px) {
   .container,
   .gradient_container {
     min-width: 315px;
+  }
+
+  .gradient_container,
+  .team_profiles {
+    padding: 0 30px;
+  }
+
+  .header_section > .container {
+    padding: 0 15px;
+  }
+
+  .main_section > .container {
+    padding: 0 0;
+  }
+
+  .nav_links label,
+  a {
+    border-bottom: none;
   }
 
   .header_section {
@@ -83,6 +127,10 @@
 
   .main_section {
     margin-top: 30px;
+  }
+
+  .card > img {
+    height: 300px;
   }
 
   .mobile_header {
@@ -163,18 +211,14 @@
     display: flex;
   }
 
-  /* .header_section,
-  .container {
-    padding-left: var(--basic-space);
-    padding-right: var(--basic-space);
-  } */
-
   .burger_menu {
     display: block;
   }
 
   .profiles_wrap {
     grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    margin-top: 30px;
   }
 
   .divider_dot_bot {
@@ -192,5 +236,17 @@
 
   .wrap_footer_first_left {
     margin-bottom: 21px;
+  }
+
+  .header_section,
+  .main_section,
+  .footer_section {
+    padding: 0 60px;
+  }
+
+  .header_section,
+  .main_section,
+  .footer_section {
+    padding: 0px;
   }
 }
