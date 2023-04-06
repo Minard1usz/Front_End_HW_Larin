@@ -37,8 +37,6 @@
 }
 
 .team_logo {
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 400;
   font-size: 36px;
   line-height: 44px;
@@ -57,8 +55,6 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
@@ -101,8 +97,8 @@ a {
 
 .nav_links a:hover {
   background: #ffffff;
-  border-bottom: 3px solid #f0145a;
-  color: #0085ff;
+  border-bottom: 3px solid #24a3ff;
+  color: #24a3ff;
 }
 
 .nav_links input[type="radio"] {
@@ -117,8 +113,6 @@ a {
 
 .text_address_top {
   color: var(--text-grey);
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 15px;
@@ -143,12 +137,11 @@ a {
 
 .contact_number {
   display: flex;
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   text-align: right;
+  padding-top: 3px;
   color: #b3b3ba;
 }
 
@@ -158,13 +151,15 @@ a {
   flex-direction: row;
   align-items: center;
   gap: 15px;
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
   text-align: right;
   color: #24a3ff;
+}
+
+.container {
+  padding: 0;
 }
 
 .mobile_header {
@@ -180,8 +175,6 @@ a {
 }
 
 .main_headline {
-  font-family: "Montserrat";
-  font-style: normal;
   margin: 0 auto;
   height: 92px;
   text-align: center;
@@ -209,8 +202,6 @@ a {
 }
 
 .profile_name {
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -238,8 +229,6 @@ a {
 }
 
 .profile_position {
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 22px;
@@ -266,8 +255,6 @@ a {
 }
 
 .contact_number_footer {
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -276,8 +263,6 @@ a {
 }
 
 .email {
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 20px;
@@ -285,8 +270,6 @@ a {
 }
 
 .text_address_bot {
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -294,8 +277,6 @@ a {
 }
 
 .map_reference {
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 700;
   font-size: 12px;
   line-height: 15px;
@@ -305,8 +286,6 @@ a {
 }
 
 .privacy {
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
@@ -369,8 +348,6 @@ a {
 }
 
 .navigation_menu_text {
-  font-family: "Montserrat";
-  font-style: normal;
   font-weight: 700;
   font-size: 24px;
   line-height: 29px;
