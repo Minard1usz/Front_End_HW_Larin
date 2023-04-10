@@ -32,6 +32,24 @@
     padding-top: 50px;
     padding-bottom: 6px;
   }
+
+  .contacts_container {
+    padding: 0 180px;
+  }
+
+  .contacts_left,
+  .contacts_right,
+  .contacts_help_form {
+    width: 510px;
+  }
+
+  .sendMessage_button,
+  #firstName,
+  #message,
+  #phone,
+  #email {
+    width: 450px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -43,6 +61,24 @@
 
   .container {
     max-width: 904px;
+  }
+
+  .contacts_container {
+    padding: 0 60px;
+  }
+
+  .contacts_left,
+  .contacts_right,
+  .contacts_help_form {
+    width: 422px;
+  }
+
+  .sendMessage_button,
+  #firstName,
+  #message,
+  #phone,
+  #email {
+    width: 362px;
   }
 }
 
@@ -95,9 +131,36 @@
     justify-content: center;
     margin-top: 30px;
   }
+
+  .contacts_left,
+  .contacts_right,
+  .contacts_help_form {
+    width: 648px;
+  }
+
+  .sendMessage_button,
+  #firstName,
+  #message,
+  #phone,
+  #email {
+    width: 588px;
+  }
+
+  .contacts_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 60px;
+    padding: 0 60px;
+  }
+
+  .contacts_main_sec {
+    margin-top: 30px;
+  }
 }
 
-@media screen and (max-width: 623px) {
+@media screen and (max-width: 640px) {
   .container,
   .gradient_container {
     min-width: 315px;
@@ -154,8 +217,6 @@
   }
 
   .main_headline {
-    font-family: "Montserrat";
-    font-style: normal;
     font-weight: 700;
     font-size: 30px;
     line-height: 37px;
@@ -248,5 +309,23 @@
   .main_section,
   .footer_section {
     padding: 0px;
+  }
+
+  .contacts_left,
+  .contacts_right,
+  .contacts_help_form {
+    width: 315px;
+  }
+
+  .sendMessage_button,
+  #firstName,
+  #message,
+  #phone,
+  #email {
+    width: 255px;
+  }
+
+  .contacts_container {
+    padding: 0 30px;
   }
 }
