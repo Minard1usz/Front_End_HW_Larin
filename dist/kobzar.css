@@ -1,0 +1,81 @@
+.kobzar_page_section {
+  margin-top: 60px;
+  padding: 0 280px;
+}
+
+.container_wrap {
+  display: grid;
+  grid-column-gap: 60px;
+  grid-template-areas: "photo credentials" "photo description";
+}
+.container_wrap .kobzar_photo_wrap {
+  display: grid;
+  grid-area: photo;
+  width: 100%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+.container_wrap .kobzar_photo_wrap img {
+  width: 100%;
+  height: auto;
+}
+.container_wrap .kobzar_credentials {
+  display: grid;
+  grid-area: credentials;
+}
+.container_wrap .kobzar_description {
+  display: grid;
+  grid-area: description;
+  margin-top: 30px;
+  align-self: flex-start;
+  gap: 30px;
+}
+.container_wrap .kobzar_references {
+  display: flex;
+  margin-top: 15px;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.container_wrap .kobzar_name {
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 46px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.container_wrap .job_position {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+  color: #b3b3ba;
+}
+.container_wrap .kobzar_email,
+.container_wrap .LinkedIn_reference {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #24a3ff;
+}
+.container_wrap .detailed_info {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #000000;
+}
+.container_wrap .headline_3 {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #323264;
+}
+
+.education,
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}/*# sourceMappingURL=kobzar.css.map */

@@ -11,6 +11,12 @@
   }
 }
 
+@media screen and (max-width: 1680px) {
+  .kobzar_page_section {
+    padding: 0 180px;
+  }
+}
+
 @media screen and (max-width: 1440px) {
   .main_headline {
     max-width: 1080px;
@@ -55,10 +61,20 @@
   .contacts_answer_wrap {
     width: 100%;
   }
+
+  .profile_info_wrapper {
+    max-width: 620px;
+  }
 }
 
 @media screen and (max-width: 1325px) {
   .contacts_container {
+    padding: 0 60px;
+  }
+}
+
+@media screen and (max-width: 1210px) {
+  .kobzar_page_section {
     padding: 0 60px;
   }
 }
@@ -94,6 +110,24 @@
 
   .name_message_wrap {
     width: 100%;
+  }
+
+  .kobzar_page_section {
+    padding: 0 60px;
+  }
+
+  .container_wrap .kobzar_references {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .divider_dot {
+    display: none;
+  }
+
+  .container_wrap .kobzar_photo_wrap {
+    max-width: 300px;
   }
 }
 
@@ -179,6 +213,18 @@
   .name_message_wrap,
   .contacts_answer_wrap {
     width: 100%;
+  }
+
+  .container_wrap {
+    display: grid;
+    grid-template-areas:
+      "photo credentials"
+      "description description";
+    grid-column-gap: 30px;
+  }
+
+  .kobzar_credentials {
+    align-self: center;
   }
 }
 
@@ -354,5 +400,40 @@
   .name_message_wrap,
   .contacts_answer_wrap {
     width: 100%;
+  }
+
+  .kobzar_page_section {
+    padding: 0 30px;
+  }
+
+  .container_wrap {
+    display: grid;
+    grid-template-areas:
+      "photo"
+      "credentials"
+      "description";
+    grid-column-gap: 30px;
+  }
+
+  .kobzar_credentials {
+    justify-self: center;
+  }
+
+  .container_wrap .kobzar_photo_wrap {
+    max-width: 315px;
+  }
+
+  .kobzar_page_section {
+    margin-top: 30px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  .kobzar_credentials {
+    justify-self: left;
+  }
+
+  .container {
+    min-width: 100%;
   }
 }

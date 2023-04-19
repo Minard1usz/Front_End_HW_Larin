@@ -42,3 +42,7 @@ body {
   padding-left: var(--basic-space);
   padding-right: var(--basic-space);
 }
+
+.ref_color {
+  color: #24a3ff;
+}
