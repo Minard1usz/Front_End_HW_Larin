@@ -11,6 +11,12 @@
   }
 }
 
+@media screen and (max-width: 1720px) {
+  .publications_card {
+    max-width: 420px;
+  }
+}
+
 @media screen and (max-width: 1680px) {
   .kobzar_page_section {
     padding: 0 180px;
@@ -67,6 +73,12 @@
   }
 }
 
+@media screen and (max-width: 1439px) {
+  .publications_card {
+    max-width: 309px;
+  }
+}
+
 @media screen and (max-width: 1325px) {
   .contacts_container {
     padding: 0 60px;
@@ -76,6 +88,12 @@
 @media screen and (max-width: 1210px) {
   .kobzar_page_section {
     padding: 0 60px;
+  }
+}
+
+@media screen and (max-width: 1108px) {
+  .publications_card {
+    max-width: 280px;
   }
 }
 
@@ -128,6 +146,12 @@
 
   .container_wrap .kobzar_photo_wrap {
     max-width: 300px;
+  }
+}
+
+@media screen and (max-width: 1019px) {
+  .publications_card {
+    max-width: 310px;
   }
 }
 
@@ -225,6 +249,10 @@
 
   .kobzar_credentials {
     align-self: center;
+  }
+
+  .publications_card {
+    max-width: 246px;
   }
 }
 
@@ -436,4 +464,14 @@
   .container {
     min-width: 100%;
   }
+
+  .publications_title {
+    font-size: 20px;
+    line-height: 24px;
+    align-items: flex-start;
+  }
+  /* 
+  .wrap_logo_mobile {
+    align-items: flex-start;
+  } */
 }

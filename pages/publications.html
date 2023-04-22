@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Publications page</title>
+    <link rel="stylesheet" href="../styles/fonts.css">
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="stylesheet" href="../dist/publications.css">
+    <link rel="stylesheet" href="../styles/media.css">
+</head>
+
+<body>
+    <header class="header_section">
+        <div class="container">
+            <div class="header_wrapper">
+                <div class="header_wrap_left">
+                    <div class="wrap_logo_mobile publications_title">
+                        <div class="wrap_logo">
+                            <a href="./index.html"><img class="logo_header" src="../images/header/hlegal_logo.png"
+                                    alt="hlegal_logo" /></a>
+                            <img src="../images/header/Slash.png" class="slash_logo" alt="slash_logo" />
+                        </div>
+                        <div class="logo_headline">
+                            <h2 class="team_logo publications_title">publications</h2>
+                        </div>
+                    </div>
+                    <div class="burger_menu">
+                        <div class="wrap_menu">
+                            <input type="checkbox" class="hide_check" />
+                            <p class="burger">
+                                <span></span><span></span><span></span><span></span>
+                            </p>
+                            <nav class="navi_checkbox">
+                                <p class="navigation_menu_text">
+                                    <a href="../index.html" target="_self">about us</a>
+                                </p>
+                                <p class="navigation_menu_text">
+                                    <a href="./index.html" target="_self">послуги</a>
+                                </p>
+                                <p class="navigation_menu_text">
+                                    <a href="./index.html" target="_self">команда</a>
+                                </p>
+                                <p class="navigation_menu_text">
+                                    <a href="./publications.html" target="_self">публікації</a>
+                                </p>
+                                <p class="navigation_menu_text">
+                                    <a href="./pages/contacts.html" target="_self">контакти</a>
+                                </p>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+                <div class="header_wrap_right">
+                    <div class="contacts_header">
+                        <nav class="nav_languages">
+                            <input type="radio" id="radio4" name="lang" value="Ukrainian" required />
+                            <label for="radio4">УК</label>
+                            <input type="radio" id="radio5" name="lang" value="Russian" required />
+                            <label for="radio5">РУ</label>
+                            <input type="radio" id="radio6" name="lang" value="English" checked required />
+                            <label for="radio6">EN</label>
+                        </nav>
+                        <span class="divider_dot"></span>
+                        <p class="text_address_top">Kyiv, Mechnikova str, 14/1</p>
+                        <span class="divider_dot"></span>
+                        <div class="contact_number">
+                            <a href="tel:+0800 211 927">0800 211 927</a>
+                        </div>
+                        <span class="divider_dot"></span>
+                        <a class="facebook_silver_svg" target="_blank" href="https://www.facebook.com"
+                            alt="facebook_silver_svg">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M24 12.0733C24 5.40541 18.6274 0 12 0C5.37258 0 0 5.40541 0 12.0733C0 18.0995 4.38823 23.0943 10.125 24V15.5633H7.07813V12.0733H10.125V9.41343C10.125 6.38755 11.9165 4.71615 14.6576 4.71615C15.9705 4.71615 17.3438 4.95195 17.3438 4.95195V7.92313H15.8306C14.3399 7.92313 13.875 8.85379 13.875 9.80857V12.0733H17.2031L16.6711 15.5633H13.875V24C19.6118 23.0943 24 18.0995 24 12.0733Z"
+                                    fill="#B3B3BA" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+                <div class="links_wrap">
+                    <div class="header_links">
+                        <nav class="nav_links">
+                            <label>
+                                <input type="radio" name="navigation_pages" id="radio_main_about" required />
+                                <a href="#" target="_self">about us</a>
+                            </label>
+                            <label>
+                                <input type="radio" name="navigation_pages" id="radio_main_services" required />
+                                <a href="#" target="_self">services</a>
+                            </label>
+                            <label>
+                                <input type="radio" name="navigation_pages" id="radio_main_team" required />
+                                <a href="../index.html" target="_self">team</a>
+                            </label>
+                            <label>
+                                <input type="radio" name="navigation_pages" id="radio_main_publications" required
+                                    checked />
+                                <a href="./publications.html" target="_self">publications</a>
+                            </label>
+                            <label>
+                                <input type="radio" name="navigation_pages" id="radio_main_contacts" required />
+                                <a href="./contacts.html" target="_self">contact</a>
+                            </label>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="publications_main_section">
+            <div class="container">
+                <div class="publications_shifter-wrap">
+
+                    <input type="radio" id="publication_choice_news" name="choose_page" value="news" checked>
+                    <label for="publication_choice_news">news</label>
+
+
+                    <input type="radio" id="publication_choice_articles" name="choose_page" value="articles">
+                    <label for="publication_choice_articles">articles</label>
+
+                </div>
+                <div class="publications_cards_wrap">
+                    <div class="publications_card" id="pub_card">
+                        <img src="../images/publications/Publication-1.jpg" alt="Equity image">
+                        <div class="publ_cards-description">
+                            <h4>Equity associate</h4>
+                            <h5>April 22</h5>
+                            <span class="publications_divider_line"></span>
+                            <p>I'm a jun on projects. I am a co-owner of a law firm. How it happened. Before entering my
+                                parents told me that if I…</p>
+                        </div>
+                    </div>
+                    <div class="publications_card">
+                        <img src="../images/publications/Publication-2.jpg" alt="GDPR image">
+                        <div class="publ_cards-description">
+                            <h4>Penalty for the Good Corporation: what will happen to Google and others for violating
+                                the GDPR</h4>
+                            <h5>September 29</h5>
+                            <span class="publications_divider_line"></span>
+                            <p>And why the recovery of 50 million euros could be a fateful precedent According to
+                                Mind.ua January 21 National Commission for Data Protection.</p>
+                        </div>
+                    </div>
+                    <div class="publications_card">
+                        <img src="../images/publications/Publication-3.jpg" alt="Testament image">
+                        <div class="publ_cards-description">
+                            <h4>Millennial Testament</h4>
+                            <h5>August 19</h5>
+                            <span class="publications_divider_line"></span>
+                            <p>What and how modern vloggers, opinion leaders and crypto-millionaires will inherit A
+                                typical legacy of the Ukrainian generation X looks like this: an apartment in…</p>
+                        </div>
+                    </div>
+                    <div class="publications_card">
+                        <img src="../images/publications/Publication-4.jpg" alt="Law image">
+                        <div class="publ_cards-description">
+                            <h4>Language Law: How to Make Your Website Relevant</h4>
+                            <h5>August 19</h5>
+                            <span class="publications_divider_line"></span>
+                            <p>Natalia Kyryk, head of content studio Wordfactory.ua First, it's beautiful! This is the
+                                number one argument in favor of the Ukrainian-language site. Secondly, it is effective.
+                                IN…</p>
+                        </div>
+                    </div>
+                    <div class="publications_card">
+                        <img src="../images/publications/Publication-5.jpg" alt="Reimbursement image">
+                        <div class="publ_cards-description">
+                            <h4>Reimbursement of the child's tuition fees in kindergarten and school</h4>
+                            <h5>February 5, 2018</h5>
+                            <span class="publications_divider_line"></span>
+                            <p>What we are talking about In June this year, the Verkhovna Rada amended the Tax Code of
+                                Ukraine. From now on, parents who receive an official…</p>
+                        </div>
+                    </div>
+                    <div class="publications_card">
+                        <div class="publ_cards-description">
+                            <h4>Currency control is dead, long live currency control!</h4>
+                            <h5>June 14, 2018</h5>
+                            <span class="publications_divider_line"></span>
+                            <p>Experts hold conferences, round tables and other events on "liberalization of currency
+                                legislation." Lawyers-experts-novelists rub their fingers about "ctrl + c / ctrl + v".
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="publications_more-button-wrap">
+                    <button class="publications_more-button">More publications</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer_section publications_footer">
+        <div class="container">
+            <div class="wrapper_footer">
+                <div class="wrap_footer_first_left">
+                    <p class="text_address_bot">Kyiv, Mechnikova str, 14/1</p>
+                    <span class="divider_dot_bot"></span>
+                    <a class="map_reference" href="#">On map</a>
+                </div>
+                <div class="wrap_footer_second_left">
+                    <a class="facebook_blue_svg" target="_blank" href="https://www.facebook.com"
+                        alt="facebook_blue_svg">
+                        <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M38 19.1161C38 8.55857 29.4934 0 19 0C8.50658 0 0 8.55857 0 19.1161C0 28.6575 6.94803 36.5659 16.0312 38V24.6419H11.207V19.1161H16.0312V14.9046C16.0312 10.1136 18.8678 7.46723 23.2078 7.46723C25.2866 7.46723 27.4609 7.84059 27.4609 7.84059V12.545H25.0651C22.7048 12.545 21.9688 14.0185 21.9688 15.5302V19.1161H27.2383L26.3959 24.6419H21.9688V38C31.052 36.5659 38 28.6575 38 19.1161Z"
+                                fill="#24A3FF" />
+                        </svg>
+                    </a>
+                    <span class="divider_dot_bot"></span>
+                    <div class="contact_number_footer">
+                        <a href="tel:+0800 211 927">0800 211 927</a>
+                    </div>
+                    <span class="divider_dot_bot"></span>
+                    <a class="email" href="mailto:contact@forstudy.space">contact@forstudy.space</a>
+                </div>
+                <div class="wrap_footer_right">
+                    <p class="privacy">© 2021 HLEGAL Law company, LLC</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
