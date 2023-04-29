@@ -291,6 +291,10 @@ a {
   color: #24a3ff;
 }
 
+.map_reference:hover {
+  color: #f0145a;
+}
+
 .privacy {
   font-weight: 400;
   font-size: 16px;
@@ -430,6 +434,10 @@ a {
   background-color: #323264;
 }
 
+.burger_black span {
+  background-color: #ffffff;
+}
+
 .hide_check:checked + .burger span {
   background-color: #ec6f5d;
 }
@@ -451,11 +459,26 @@ a {
 }
 
 .hide_check:checked ~ .navi_checkbox {
-  background: white;
+  background: #323264;
   opacity: 100%;
   transform: translateY(0);
   margin: 0;
+  border-radius: 0;
   touch-action: none;
+}
+
+.navi_checkbox .navi_list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  opacity: 100%;
+  padding: 12px;
+  background: #ffffff;
+  border-radius: 12px 12px 12px 12px;
+  list-style: none;
+  height: 100%;
+  width: 100%;
+  padding-top: 64px;
 }
 
 .hide_check:checked {
@@ -464,15 +487,12 @@ a {
 
 .navi_checkbox {
   display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  margin: 8px 8px;
+  padding: 8px 8px;
   border-radius: 12px 12px 0px 0px;
   flex-direction: column;
   justify-content: start;
   align-items: center;
   gap: 1rem;
-  padding: 100px 25px 25px 25px;
   position: fixed;
   inset: 0;
   z-index: 1;
@@ -773,7 +793,7 @@ body.gradient .home-header_section {
 
 .home-first_section {
   min-height: 100vh;
-  background: url("../images/Symbol.png") no-repeat center/contain;
+  background: url("../images/Symbol2x.png") no-repeat center/contain;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -833,7 +853,6 @@ body.gradient .home-header_section {
 
 .hlegal_button-left {
   font-family: "Montserrat";
-  font-style: normal;
   font-weight: 700;
   font-size: 38px;
   line-height: 46px;
@@ -994,8 +1013,8 @@ body.gradient .home-header_section {
   flex-direction: column;
   justify-content: center;
   background: #f5f5fa;
-  border-radius: 12px;
-  padding-left: 30px;
+  border-radius: 0px 12px 12px 0px;
+  padding: 30px 30px;
 }
 
 .slider_credentials h4 {
@@ -1133,6 +1152,7 @@ body.gradient .home-header_section {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   padding-top: 10px;
+  padding-bottom: 30px;
 }
 
 .black-publications_card {
@@ -1152,7 +1172,6 @@ body.gradient .home-header_section {
 .black-publications_cards-wrap {
   display: flex;
   justify-content: space-between;
-  flex-wrap: wrap;
   gap: 30px;
   padding-bottom: 30px;
 }
@@ -1224,4 +1243,24 @@ body.gradient .home-header_section {
 
 .black-publications_footer-section {
   margin-top: 0;
+}
+
+.slash_logo_black {
+  display: none;
+}
+
+.team_logo_black {
+  display: none;
+}
+
+.home-first-section_headline {
+  font-size: 38px;
+  line-height: 46px;
+  text-align: center;
+  color: #ffffff;
+}
+
+.contact-number_black-mobile,
+.nav_languages-black {
+  color: #ffffff;
 }

@@ -26,6 +26,27 @@
 
 <body class="gradient">
     <header class="home-header_section">
+        <div class="mobile_header mobile_header-dark">
+            <div class="contacts_header">
+                <nav class="nav_languages nav_languages-black">
+                    <input type="radio" id="radio1" name="lang" value="Ukrainian" required />
+                    <label for="radio1">УК</label>
+                    <input type="radio" id="radio2" name="lang" value="Russian" required />
+                    <label for="radio2">РУ</label>
+                    <input type="radio" id="radio3" name="lang" value="English" checked required />
+                    <label for="radio3">EN</label>
+                </nav>
+                <span class="divider_dot"></span>
+                <p class="text_address_top">Kyiv, Mechnikova str, 14/1</p>
+                <span class="divider_dot"></span>
+
+                <span class="divider_dot"></span>
+                <img src="./icons/header/facebook.png" alt="fb_icon" />
+            </div>
+            <div class="contact_number contact-number_black-mobile">
+                <a href="tel:+0800 211 927">0800 211 927</a>
+            </div>
+        </div>
         <div class="container">
             <div class="header_wrapper">
                 <div class="header_wrap_left">
@@ -33,33 +54,46 @@
                         <div class="wrap_logo">
                             <a href="./index.html"><img class="logo_header" src="./images/header/hlegal_logo_white.png"
                                     alt="hlegal_logo" /></a>
+                            <img src="./images/header/Slash.png" class="slash_logo slash_logo_black" alt="slash_logo" />
                         </div>
                         <div class="logo_headline">
-                            <h2 class="team_logo">team</h2>
+                            <h2 class="team_logo team_logo_black">services</h2>
                         </div>
                     </div>
                     <div class="burger_menu">
                         <div class="wrap_menu">
                             <input type="checkbox" class="hide_check" />
-                            <p class="burger">
+                            <p class="burger burger_black">
                                 <span></span><span></span><span></span><span></span>
                             </p>
                             <nav class="navi_checkbox">
-                                <p class="navigation_menu_text">
-                                    <a href="./team-page.html" target="_self">about us</a>
-                                </p>
-                                <p class="navigation_menu_text">
-                                    <a href="./team-page.html" target="_self">послуги</a>
-                                </p>
-                                <p class="navigation_menu_text">
-                                    <a href="./team-page.html" target="_self">команда</a>
-                                </p>
-                                <p class="navigation_menu_text">
-                                    <a href="./team-page.html" target="_self">публікації</a>
-                                </p>
-                                <p class="navigation_menu_text">
-                                    <a href="./pages/contacts.html" target="_self">контакти</a>
-                                </p>
+                                <ul class="navi_list">
+                                    <li>
+                                        <p class="navigation_menu_text">
+                                            <a href="./team-page.html" target="_self">about us</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="navigation_menu_text">
+                                            <a href="./team-page.html" target="_self">послуги</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="navigation_menu_text">
+                                            <a href="./team-page.html" target="_self">команда</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="navigation_menu_text">
+                                            <a href="./team-page.html" target="_self">публікації</a>
+                                        </p>
+                                    </li>
+                                    <li>
+                                        <p class="navigation_menu_text">
+                                            <a href="./pages/contacts.html" target="_self">контакти</a>
+                                        </p>
+                                    </li>
+                                </ul>
                             </nav>
                         </div>
                     </div>
@@ -105,7 +139,7 @@
                             </label>
                             <label>
                                 <input type="radio" name="navigation_pages" id="radio_main_team" required />
-                                <a href="./team-page.html" target="_self">team</a>
+                                <a href="./pages/team-page.html" target="_self">team</a>
                             </label>
                             <label>
                                 <input type="radio" name="navigation_pages" id="radio_main_publications" required />
@@ -127,7 +161,7 @@
             <section class="home-first_section">
                 <span></span>
                 <div class="container">
-                    <h1>you legal solutions provider</h1>
+                    <h1 class="home-first-section_headline">you legal solutions provider</h1>
                 </div>
                 <a href="#header" class="toTop" onclick="scrollToElem(this)">
                     <svg width="42" height="42" viewBox="0 0 42 42" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -406,7 +440,7 @@
                     </div>
                     <h3 class="black-publications_headline">We have something to tell</h3>
                     <div class="black-publications_cards-wrap">
-                        <div class="black-publications_card">
+                        <div class="black-publications_card black_card-left">
                             <img src="./images/publications/Publication-1.jpg" alt="equity image">
                             <div class="black-publication_cards-description">
                                 <h4>Equity associate</h4>
@@ -417,7 +451,7 @@
                                     parents told me that if I…</p>
                             </div>
                         </div>
-                        <div class="black-publications_card">
+                        <div class="black-publications_card black_card-right">
                             <img src="./images/publications/Publication-2.jpg" alt="equity image">
                             <div class="black-publication_cards-description">
                                 <h4>Penalty for the Good Corporation: what will happen to Google and others for
@@ -429,7 +463,7 @@
                                     Mind.ua January 21 National Commission for Data Protection.</p>
                             </div>
                         </div>
-                        <div class="black-publications_card">
+                        <div class="black-publications_card black_card-bottom">
                             <img src="./images/publications/Publication-3.jpg" alt="equity image">
                             <div class="black-publication_cards-description">
                                 <h4>Millennial Testament</h4>
