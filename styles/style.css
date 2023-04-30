@@ -1264,3 +1264,9 @@ body.gradient .home-header_section {
 .nav_languages-black {
   color: #ffffff;
 }
+
+.container_wrap .other-team-photos img {
+  height: 100% !important;
+  object-fit: cover;
+  border-radius: 20px;
+}
