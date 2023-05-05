@@ -1,0 +1,120 @@
+.top-block_section {
+  margin: 60px 0;
+}
+
+.top-block_wrap {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.top-block_left-descr {
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+  max-width: 942px;
+}
+.top-block_left-descr h2 {
+  font-size: 38px;
+  line-height: 46px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.top-block_left-descr p {
+  font-size: 19px;
+  line-height: 30px;
+  color: #000000;
+}
+
+.top-block_right-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  border-left: 4px solid;
+  border-color: #e6e6f0;
+  padding-left: 30px;
+  max-width: 354px;
+}
+.top-block_right-wrap p {
+  line-height: 20px;
+  color: #323264;
+}
+.top-block_right-wrap .top-block_statistics {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  padding-bottom: 10px;
+}
+.top-block_right-wrap h2 {
+  font-size: 36px;
+  line-height: 44px;
+  text-align: center;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.middle-block_section {
+  padding-bottom: 60px;
+}
+
+.team-wrap {
+  position: relative;
+}
+.team-wrap h1 {
+  position: absolute;
+  font-size: 96px;
+  letter-spacing: 63px;
+  color: #ffffff;
+  opacity: 0.8;
+  text-shadow: 0px 15px 30px rgba(40, 40, 86, 0.8);
+  left: calc(50% - 239px);
+  top: calc(50% - 58.5px + 2.5px);
+}
+
+.bottom-block_section {
+  padding-bottom: 60px;
+}
+
+.bottom-block_wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 60px;
+}
+.bottom-block_wrap h2 {
+  font-size: 38px;
+  line-height: 46px;
+  background: linear-gradient(90.13deg, #f0145a 0.84%, #ef8080 99.96%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  max-width: 362px;
+}
+.bottom-block_wrap p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 30px;
+  color: #000000;
+  max-width: 938px;
+}
+
+.bottom-block_slider {
+  background: #f5f5fa;
+}
+
+.slider-name {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #323264;
+  padding-top: 30px;
+}/*# sourceMappingURL=aboutus.css.map */

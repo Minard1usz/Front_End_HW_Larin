@@ -363,7 +363,6 @@ a {
   line-height: 29px;
   text-align: center;
   color: #24a3ff;
-  min-width: 335px;
   height: 43px;
   background: #f5f5fa;
   border-radius: 12px;
@@ -890,6 +889,7 @@ body.gradient .home-header_section {
 
 .hlegal_nav-wrapper {
   max-width: 1360px;
+  align-items: center !important;
 }
 
 .toTop:hover svg path,
